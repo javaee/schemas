@@ -3,7 +3,7 @@
 
     DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 
-    Copyright (c) 2009-2013 Oracle and/or its affiliates. All rights reserved.
+    Copyright (c) 2009-2015 Oracle and/or its affiliates. All rights reserved.
 
     The contents of this file are subject to the terms of either the GNU
     General Public License Version 2 only ("GPL") or the Common Development
@@ -45,7 +45,7 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
  xmlns:foobar="http://foobar.com"
  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee web-app_4_0.xsd http://foobar.com http://foobar.com/foobar.xsd"
- version="3.1">
+ version="4.0">
   <servlet>
     <servlet-name>MyInventoryServlet</servlet-name>
     <servlet-class>com.acme.Inventory</servlet-class>
