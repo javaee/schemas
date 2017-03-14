@@ -295,7 +295,7 @@
           </xsd:documentation>
         </xsd:annotation>
       </xsd:element>
-      <xsd:element name="request-encoding" type="javaee:string">
+      <xsd:element name="request-character-encoding" type="javaee:string">
         <xsd:annotation>
           <xsd:documentation>
 
@@ -305,7 +305,7 @@
           </xsd:documentation>
         </xsd:annotation>
       </xsd:element>
-      <xsd:element name="response-encoding" type="javaee:string">
+      <xsd:element name="response-character-encoding" type="javaee:string">
         <xsd:annotation>
           <xsd:documentation>
 

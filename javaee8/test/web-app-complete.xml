@@ -48,8 +48,8 @@
  metadata-complete="true"
  version="4.0">
   <default-context-path>/myappcomplete</default-context-path>
-  <request-encoding>UTF-8</request-encoding>
-  <response-encoding>UTF-8</response-encoding>
+  <request-character-encoding>UTF-8</request-character-encoding>
+  <response-character-encoding>UTF-8</response-character-encoding>
   <servlet>
     <servlet-name>MyInventoryServlet</servlet-name>
     <servlet-class>com.acme.Inventory</servlet-class>
