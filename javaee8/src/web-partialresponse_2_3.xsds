@@ -3,16 +3,16 @@
             attributeFormDefault="unqualified"
             elementFormDefault="qualified"
             targetNamespace="http://xmlns.jcp.org/xml/ns/javaee"
-            version="2.2"
+            version="2.3"
             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:include schemaLocation="javaee_7.xsd"/>
+  <xsd:include schemaLocation="javaee_8.xsd"/>
 
   <xsd:annotation>
     <xsd:documentation>
 
       DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
       
-      Copyright (c) 2011 - 2013 Oracle and/or its affiliates. All rights reserved.
+      Copyright (c) 2011 - 2017 Oracle and/or its affiliates. All rights reserved.
       
       The contents of this file are subject to the terms of either the GNU
       General Public License Version 2 only ("GPL") or the Common Development
@@ -56,7 +56,7 @@
       <![CDATA[[
       <p>
       
-      The XML Schema for the JavaServer Faces (Version 2.2)  
+      The XML Schema for the JavaServer Faces (Version 2.3)  
       Partial Response used in JSF Ajax frameworks.
       
       </p>
@@ -110,7 +110,7 @@
         ]]>
       </xsd:documentation>
     </xsd:annotation>
-    <xsd:choice>
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
       <xsd:element name="changes"
                    type="javaee:partial-response-changesType"
                    minOccurs="0"

@@ -44,8 +44,8 @@
 <facelet-taglib xmlns="http://xmlns.jcp.org/xml/ns/javaee"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
  xmlns:foobar="http://mojarra.dev.java.net/mojarra_ext"
- xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee web-facelettaglibrary_2_2.xsd http://mojarra.dev.java.net/mojarra_ext http://mojarra.dev.java.net/mojarra_ext/mojarra_ext.xsd"
- version="2.2"
+ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee web-facelettaglibrary_2_3.xsd http://mojarra.dev.java.net/mojarra_ext http://mojarra.dev.java.net/mojarra_ext/mojarra_ext.xsd"
+ version="2.3"
 >
     <namespace>http://mojarra.dev.java.net/mojarra_ext</namespace>
     <tag>
@@ -68,12 +68,14 @@
         </component>
     </tag>
 
+    <!-- Uncomment when issue in facelet-taglibrary is fixed.
     <tag>
         <tag-name>c</tag-name>
         <component>
             <handler-class>com.sun.faces.jsf_extensions_javajsf.vdl.JavaJsfComponentHandler</handler-class>
         </component>
     </tag>
+    -->
 
 </facelet-taglib>
-<?validateAgainst web-facelettaglibrary_2_2.xsd ?>
+<?validateAgainst web-facelettaglibrary_2_3.xsd ?>
