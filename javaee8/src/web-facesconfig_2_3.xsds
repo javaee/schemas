@@ -78,7 +78,7 @@
       version of the schema using xsi:schemaLocation attribute
       for javaee namespace with the following location:</p>
       
-      <p>http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd</p>
+      <p>http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_3.xsd</p>
       
       ]]>
     </xsd:documentation>
