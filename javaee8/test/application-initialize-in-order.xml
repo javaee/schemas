@@ -3,7 +3,7 @@
 
     DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 
-    Copyright (c) 2009-2013 Oracle and/or its affiliates. All rights reserved.
+    Copyright (c) 2009-2017 Oracle and/or its affiliates. All rights reserved.
 
     The contents of this file are subject to the terms of either the GNU
     General Public License Version 2 only ("GPL") or the Common Development
@@ -44,8 +44,8 @@
 <application xmlns="http://xmlns.jcp.org/xml/ns/javaee"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
-       http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd"
-     version="7">
+       http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd"
+     version="8">
   <application-name>OrderApp</application-name>
   <description>Application description</description>
   <display-name>OrderApp</display-name>
@@ -64,5 +64,5 @@
   <alt-dd>Gpasd</alt-dd>
   </module>
 </application>
-<?validateAgainst application_7.xsd?>
+<?validateAgainst application_8.xsd?>
 

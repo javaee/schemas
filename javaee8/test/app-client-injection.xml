@@ -3,7 +3,7 @@
 
     DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 
-    Copyright (c) 2009-2013 Oracle and/or its affiliates. All rights reserved.
+    Copyright (c) 2009-2017 Oracle and/or its affiliates. All rights reserved.
 
     The contents of this file are subject to the terms of either the GNU
     General Public License Version 2 only ("GPL") or the Common Development
@@ -45,8 +45,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:xml="http://www.w3.org/XML/1998/namespace" 
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
-      http://xmlns.jcp.org/xml/ns/javaee/application-client_7.xsd"
-    version="7">
+      http://xmlns.jcp.org/xml/ns/javaee/application-client_8.xsd"
+    version="8">
   <description xml:lang="en">This is my app client</description>
   <display-name>MyAppClient</display-name>
   <env-entry>
@@ -206,7 +206,7 @@
     <lifecycle-callback-method>ready</lifecycle-callback-method>
   </post-construct>
 </application-client>
-<?validateAgainst application-client_7.xsd?>
+<?validateAgainst application-client_8.xsd?>
 <?expectError 94:cvc-complex-type.2.4.b?>
 <?expectError 101:cvc-complex-type.2.4.a?>
 <?expectError 110:cvc-complex-type.2.4.b?>
